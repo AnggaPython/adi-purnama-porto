@@ -1,0 +1,95 @@
+#about{
+    height: 85vh;
+
+    #about--title{
+        width: 10%;
+        height: 100%;
+
+        h2{
+            transform: rotate(-90deg);
+        }
+    }
+
+    #about-content{
+        width: 90%;
+
+        #about--img{
+            height: 40vh;
+
+            #about-name{
+                p{
+                    font-size: 2.5vw;
+                }
+                h2{
+                    font-size: 7vw;
+                    margin-top: -3%;
+                }
+            }
+        }
+
+        #about-text{
+            height: 45vh;
+            padding-top: 10px;
+
+            #about-text-content{
+                margin: auto auto;
+                width: 95%;
+                row-gap: .3%;
+                margin-left: 7%;
+                
+                p{
+                    font-size: 2.7vw;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 4.9vw;
+                    width: 100%;
+                }
+                
+                #about-text-highlight-container-1{
+                    margin-left: 5%;
+                }
+                #about-text-highlight-container-2{
+                    margin-left: 10%;
+                }
+                
+                .about-text-highlight-container{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: end;
+                    column-gap: 2%;
+                    width: 100%;
+                }
+
+                .about-box-reveal{
+                    width: 100%;
+                    overflow: hidden;
+                    
+                    #about-txt-5{
+                        margin-top: 0%;
+                        margin-left: 2.4%;
+                    }
+                    #about-txt-6{
+                        margin-top: 0%;
+                        margin-left: 10%;
+                    }
+                    #about-txt-7{
+                        margin-left: 15%;
+                    }
+                }
+            }
+
+            #about-txt-img1{
+                width: 15vw;
+                left: 4%;
+                top: 30%;
+            }
+
+            #about-txt-img2{
+                bottom: 5%;
+                right: 10%;
+                width: 15vw;
+            }
+        }
+    }
+}

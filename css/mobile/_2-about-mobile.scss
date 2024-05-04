@@ -1,0 +1,102 @@
+#about{
+    height: 90vh;
+    min-height: 600px;
+
+    #about--title{
+        width: 10%;
+        height: 100%;
+
+        h2{
+            transform: rotate(-90deg);
+        }
+    }
+
+    #about-content{
+        width: 90%;
+
+        #about--img{
+            height: 40vh;
+            min-height: 300px;
+
+            #about-name{
+                p{
+                    font-size: 3vw;
+                }
+                h2{
+                    font-size: 8vw;
+                }
+            }
+        }
+
+        #about-text{
+            height: 50vh;
+            min-height: 300px;
+
+            #about-text-content{
+                width: 100%;
+                margin-left: 3%;
+                row-gap: 1%;
+                
+                p{
+                    font-size: 3vw;
+                    width: 100%;
+                    font-weight: 600;
+                    mix-blend-mode: normal;
+                    color: white;
+                    letter-spacing: 1px;
+                }
+                h1{
+                    font-size: 5.2vw;
+                    width: 100%;
+                    letter-spacing: 1.2px;
+                }
+                
+                #about-text-highlight-container-1{
+                    margin-left: 0%;
+                }
+                #about-text-highlight-container-2{
+                    margin-left: 5%;
+                }
+                
+                .about-text-highlight-container{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: end;
+                    column-gap: 1.5%;
+                    width: 100%;
+
+                    #about-txt-3{
+                        margin-right: 1.5px;
+                        margin-bottom: 1.1px;
+                    }
+                }
+
+                .about-box-reveal{
+                    width: 100%;
+                    overflow: hidden;
+                    
+                    #about-txt-5{
+                        margin-top: -2px;
+                        margin-left: 0%;
+                    }
+                    #about-txt-6{
+                        margin-left: 6%;
+                    }
+                    #about-txt-7{
+                        margin-left: 12%;
+                    }
+                }
+            }
+
+            #about-txt-img1{
+                display: none;
+            }
+
+            #about-txt-img2{
+                bottom: 4%;
+                right: 2%;
+                width: 21vw;
+            }
+        }
+    }
+}
